@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?familia =Sono: wght @ 400; 500&mostrar = swap ');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+    ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#inicio {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/habitacion-gamer-en-navidad_1280x720_xtrafondos.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: aliceblue;
+}
+
+#inicio .contenido header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1 {
+    text-align: center;
+    color: #FF9645;
+
+
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+
+}
+
+#inicio .contenido header .contenido-header nav ul a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+
+#inicio .contenido header .contenido-header nav ul a:hover {
+    color: #FF9645;
+}
+
+#inicio .contenido header .contenido-header .redes a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: #FF9645;
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+#inicio .contenido .presentacion h2 {
+
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span {
+
+    font-size: 55px;
+    color: #FF9645;
+}
+
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 10px auto;
+    display: inline-block;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+
+}
+
+#inicio .contenido .presentacion a:hover {
+    background-color: #FF9645;
+
+}
+
+#icono-nav {
+    display: none;
+    color: #fff;
+}
+
+/* ESTILOS DE PA PARTE SOBRE MI */
+
+#sobremi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+    min-height: 100vh;
+}
+
+#sobremi .soy {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: #FF9645;
+
+
+}
+
+#sobremi .contenedorfoto {
+
+    width: 400px;
+    margin-right: 80px;
+
+
+
+
+
+}
+
+#sobremi .contenedorfoto img {
+    width: 400px;
+    border-radius: 20px;
+
+
+
+
+}
+
+#sobremi .sobremi {
+    font-size: 22px;
+
+    color: #111135;
+
+    text-decoration-color: #f3f3f3;
+    text-decoration-thickness: 5px;
+
+}
+
+#sobremi .sobremi .soy {
+    padding-bottom: 20px;
+
+}
+
+#sobremi .sobremi h3 {
+    padding-bottom: 10px;
+
+
+}
+
+#sobremi .sobremi h2 span {
+
+    color: #FF9645;
+}
+
+#sobremi .sobremi h3 {
+    padding-top: 10px;
+}
+
+
+#sobremi .sobremi a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 20px auto;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+#sobremi .sobremi a:hover {
+    background-color: #FF9645;
+}
+
+#sobremi .sobremi .perfil {
+    font-size: 18px;
+
+}
+
+/* estilos de servicios conocimientos*/
+
+#servicios {
+    background-color: #00000009;
+    min-height: 100vh;
+    padding: 50px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#servicios .titulo h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: #FF9645;
+    margin: 10px 10px 50px 10px;
+}
+
+.contenido-servicios {
+
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.contenido-servicios .cada-servicio {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+
+
+}
+
+.contenido-servicios .cada-servicio img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.contenido-servicios .cada-servicio:hover {
+    border: solid 1px #ff96456c;
+    transform: rotate(2deg);
+
+}
+
+/*Portafolio*/
+
+#portafolio {
+    background-color: #ffffff6e;
+    min-height: 100vh;
+    padding: 50px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#portafolio .titulo h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: #FF9645;
+    margin: 10px 10px 50px 10px;
+}
+
+.contenido-proyectos {
+
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.contenido-proyectos .cada-proyecto {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(0, 0, 0, 0.377);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.contenido-proyectos .cada-proyecto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+
+.contenido-proyectos .cada-proyecto:hover img {
+    filter: grayscale(0);
+}
+
+.contenido-proyectos .cada-proyecto .descripcion {
+    position: absolute;
+    background-color: #000000d3;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    opacity: 0;
+    bottom: -10px;
+    transition: .5s;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.contenido-proyectos .cada-proyecto .descripcion p {
+    padding: 5px 10px 5px 10px;
+
+
+}
+
+
+
+.contenido-proyectos .cada-proyecto:hover .descripcion {
+    opacity: 1;
+    bottom: 0;
+}
+
+/*SECCION DE CONTACTO*/
+
+#contacto {
+    background-color: #111135;
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+#contacto .contactForm {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    width: 90%;
+    min-height: 80%;
+    border-radius: 10px;
+    border: solid 1px white;
+
+}
+
+#contacto .contactForm .form .texto {
+
+    width: 100%;
+}
+
+#contacto .contactForm .form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 30px;
+
+}
+
+
+#contacto .contactForm .form form {
+    width: 100%;
+}
+
+#contacto .contactForm .form .texto h2 {
+    color: #f3f3f3;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#contacto .contactForm .form .texto p {
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#contacto .contactForm .form .inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+
+#contacto .contactForm .form .inputBox label {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#contacto .contactForm .form .inputBox input[type="text"],
+#contacto .contactForm .form .inputBox input[type="email"],
+#contacto .contactForm .form .inputBox textarea {
+    color: #f3f3f3;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    resize: none;
+    min-width: 100%;
+}
+
+#contacto .contactForm .form .inputBox input[type="text"]:focus,
+#contacto .contactForm .form .inputBox input[type="email"]:focus,
+#contacto .contactForm .form .inputBox textarea {
+    outline: 1px solid rgb(98, 219, 183);
+}
+
+#contacto .contactForm .form input[type="submit"] {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 600;
+}
+
+#contacto .contactForm .form input[type="submit"]:hover {
+    background-color: rgb(98, 219, 183);
+
+}
+
+#contacto .contactForm .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#contacto .contactForm .info .imgBox {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    
+   
+
+        
+}
+
+#contacto .contactForm .info .imgBox img{
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contacto .contactForm .info .texBox{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+#contacto .contactForm .info .texBox .infoContac{
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+
+#contacto .contactForm .info .texBox .infoContac ion-icon{
+    font-size: 20px;
+    margin-right: 10px;
+    
+   
+
+}

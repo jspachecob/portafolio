@@ -1,0 +1,174 @@
+@media screen and (max-width: 940px) {
+
+    /* ESTILOS DE SECCION SOBRE MI*/
+    #sobremi {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    #sobremi h2 {
+        font-size: 28px;
+    }
+
+    #sobremi .contenedorfoto {
+
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+
+
+    #sobremi .contenedorfoto img {
+        width: 300px;
+        border-radius: 20px;
+
+    }
+
+    /* ESTILOS DE PRESENTACION*/
+    #inicio .contenido .presentacion h2 {
+
+        font-size: 45px;
+        margin-bottom: 25px;
+        text-align: center;
+        padding: 0 40px 0 40px;
+    }
+    #inicio .contenido .presentacion .descripcion {
+
+      padding: 0 40px 0 40px;
+    }
+
+    #inicio .contenido .presentacion h2 span {
+
+        font-size: 45px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    /* ESTILOS DE SECCION PORTAFOLIO PROYECTOS*/
+    .contenido-portafolio .proyecto .cap-de-proyectos div {
+        border-radius: 10px;
+        border: solid 1px rgba(0, 0, 0, 0.247);
+        width: 90%;
+        padding: 5px;
+        background-color: #fff;
+        cursor: pointer;
+
+    }
+
+    .contenido-portafolio .proyecto .descripcion {
+        margin-bottom: 10px;
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding: 0 10px 0 10px;
+
+    }
+
+    /* ESTILOS DE NAV DESPLEGLABLE*/
+    .lineas {
+
+        display: block;
+        cursor: pointer;
+    }
+
+    .lineas .line {
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin: 3px;
+    }
+
+    #nav {
+        position: absolute;
+        top: 48px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgba(0, 0, 0, .8);
+        transition: 0.30s;
+        overflow: hidden;
+        height: 0;
+    }
+
+    #inicio .contenido header .contenido-header .activa {
+
+        height: 200px;
+    }
+
+    #inicio .contenido header .contenido-header nav ul {
+
+        display: block;
+        text-align: center;
+        transition: 0.30s;
+        opacity: 0;
+
+    }
+
+    #inicio .contenido header .contenido-header .activa ul {
+
+        opacity: 1;
+
+    }
+
+}
+
+@media screen and (max-width: 1260px) {
+
+    #contacto .contactForm {
+
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    #contacto .contactForm {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #contacto .contactForm .info {
+        height: 100px;
+        padding: 30px;
+    }
+
+    #contacto .contactForm .info .imgBox {
+        display: none;
+    }
+
+    #contacto .contactForm .form input[type="submit"] {
+
+        width: 100%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+    #contacto .contactForm .form {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 100%;
+        margin-left: 0;
+    
+    }
+
+  
+    
+    
+
+}
+
