@@ -471,7 +471,7 @@ html {
 
 #contacto .contactForm .form .inputBox input[type="text"]:focus,
 #contacto .contactForm .form .inputBox input[type="email"]:focus,
-#contacto .contactForm .form .inputBox textarea {
+#contacto .contactForm .form .inputBox textarea:focus {
     outline: 1px solid rgb(98, 219, 183);
 }
 
